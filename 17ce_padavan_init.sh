@@ -1,10 +1,10 @@
 #!/bin/sh
 echo "installing 17ce"
 if [ $# == 1 ]; then
-	echo "17CEÕËºÅ£º$1"	
+	echo "17CEè´¦å·ï¼š$1"	
 	sleep 2
 else
-	echo "Usage:  ./17ce_padavan_init.sh xxx@xxx.com #xxx@xxx.com¸Ä³ÉÄúµÄÕË»§"
+	echo "Usage:  ./17ce_padavan_init.sh xxx@xxx.com #xxx@xxx.comæ”¹æˆæ‚¨çš„è´¦æˆ·"
 	exit 1
 fi
 echo 
