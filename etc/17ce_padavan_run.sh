@@ -1,7 +1,7 @@
 #!/bin/sh
 # Copyight (C) 2017  www.17ce.com
 START=99
-CDN_BASE="https://coding.net/u/weimjsam/p/17ce/git/raw/master/"
+CDN_BASE="https://coding.net/u/weimjsam/p/17ce/git/raw/master"
 WORK_DIR="/tmp/17ce"
 SAVE_DIR="/etc/storage/17ce"
 export LD_LIBRARY_PATH=/lib:$WORK_DIR
