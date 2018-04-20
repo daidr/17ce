@@ -1,4 +1,5 @@
 #!/bin/sh
+
 echo "installing 17ce"
 if [ $# == 1 ]; then
 	echo "17CE账号：$1"	
