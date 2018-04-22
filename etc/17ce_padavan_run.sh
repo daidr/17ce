@@ -16,9 +16,10 @@ wget_install(){
 init_files()
 {
 
-        killall -9 17ce_v3 2>/dev/null  >/dev/null
-        mkdir -p $WORK_DIR
-        mkdir -p $SAVE_DIR
+    killall -9 17ce_v3 2>/dev/null  >/dev/null
+    rm -f /tmp/17ce/UUID
+    mkdir -p $WORK_DIR
+    mkdir -p $SAVE_DIR
 	cd $WORK_DIR
 	
 	if [ ! -f "/tmp/17ce/17ce_v3" ]; then
