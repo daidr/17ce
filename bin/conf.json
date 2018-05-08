@@ -3,7 +3,7 @@
 	"url": "http://admin.17ce.com:9002/router_manage",
 	"user": "yiqice@qq.com",
 	"thread_count": 25,
-	"task_ttl": 60,
+	"task_ttl": 40,
 	"valid_time_out": 5,
 	"valid_ttl": 5,
 	"valid_ok_count": 2,
