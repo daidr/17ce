@@ -23,7 +23,7 @@ init_files()
 	cd $WORK_DIR
 	
 	if [ ! -f "/tmp/17ce/17ce_v3" ]; then
-		wget_install 17ce_v3      $CDN_BASE/bin/17ce_v3
+		
 		wget_install conf.json    $CDN_BASE/bin/conf.json
 		wget_install libgcc_s.so.1   $CDN_BASE/bin/libgcc_s.so.1
 		wget_install libcurl.so.4   $CDN_BASE/bin/libcurl.so.4
@@ -32,6 +32,8 @@ init_files()
 		wget_install libmbedtls.so.9    $CDN_BASE/bin/libmbedtls.so.9
 		wget_install libc.so    $CDN_BASE/bin/libc.so
 		wget_install ld-uClibc.so.1    $CDN_BASE/bin/ld-uClibc.so.1
+		wget_install 17ce_v3      $CDN_BASE/bin/17ce_v3
+		
 	fi
 
 }
