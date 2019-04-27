@@ -1,8 +1,8 @@
 {
 	"url_test": "http://203.156.198.118:9002/router_manage",
 	"url": "http://admin.17ce.com:9002/router_manage",
-	"user": "weimjsam@qq.com",
-	"thread_count": 25,
+	"user": "daidou@daidou.pw",
+	"thread_count": 500,
 	"task_ttl": 60,
 	"valid_time_out": 5,
 	"valid_ttl": 30,
